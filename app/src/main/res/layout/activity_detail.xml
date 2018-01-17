@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.sandwichclub.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textLabels"
+            android:text="@string/main_name" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/image_iv"
+            style="@style/imageStyle"
+            android:contentDescription="@string/sandwich_picture_content_description" />
+
+        <TextView
+            style="@style/textLabels"
+            android:text="@string/also_known_as" />
+
+        <TextView
+            android:id="@+id/also_known_as"
+            style="@style/text" />
+
+        <TextView
+            style="@style/textLabels"
+            android:text="@string/ingredients" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            style="@style/text" />
+
+        <TextView
+            style="@style/textLabels"
+            android:text="@string/place_of_origin" />
+
+        <TextView
+            android:id="@+id/origin"
+            style="@style/text" />
+
+        <TextView
+            style="@style/textLabels"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/text" />
+
+    </LinearLayout>
+</ScrollView>
